@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<title>Antahsagri</title>
+	</head>
+	<body data-spy="scroll" data-target="#navbar" data-offset="56">
+		<!-- nav bar -->
+	  <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		  <a class="navbar-brand" href="#">Antahsagri</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto nav-pills">
+		      <li class="nav-item ml-auto">
+		        <a class="nav-link" href="#home">Home</a>
+		      </li>
+		      <li class="nav-item ml-auto">
+		        <a class="nav-link" href="#about">About</a>
+		      </li>
+					<li class="nav-item ml-auto">
+						<a class="nav-link" href="#modules">Modules</a>
+					</li>
+					<li class="nav-item ml-auto">
+		        <a class="nav-link" href="#posts">Posts</a>
+					</li>
+		      <li class="nav-item ml-auto">
+		        <a class="nav-link" href="#team">Team</a>
+					</li>
+					<li class="nav-item ml-auto">
+		        <a class="nav-link" href="#contact-us">Contact Us</a>
+					</li>
+		    </ul>
+		  </div>
+		</nav>
+		<!-- /nav bar -->
+
+		<!-- Slideshow container -->
+	  <div id="home" class="d-flex justify-content-left align-items-center">
+			<h1 class="p-name">Antahsagri</h1>
+	    <div class="mySlides">
+	      <img class="img" src="images/1.JPG">
+	    </div>
+
+	    <div class="mySlides">
+	      <img class="img" src="images/2.png">
+	    </div>
+
+	    <div class="mySlides">
+	      <img class="img" src="images/3.JPG">
+	    </div>
+	  </div>
+<!-- /Slideshow container -->
+
+<!-- About section -->
+
+		<div class="cont pb-2 text-center fix-height" id="about">
+			<h1 class="mb-5 nav-items">About</h1>
+			<div class="back py-3 pl-3 text-left">
+				<p>Antahsagri traces its origin to June 2019 when a group of students from varied engineering streams came together to deploy their skills.
+					The team developed its first vehicle, Antahsagri 1.0, in November 2019, overcoming hurdles like cost, manufacturability, efficient design,
+					and limited time. The underwater nature imposes a number of challenges for navigation like depth pressure, water leakage, stability related
+					issues, poor underwater lighting, etc. We are determined to develop cutting-edge technology to overcome these challenges.</p>
+				<div style="display: none">
+
+					<p>We are trying to analyze the impact of urbanization on rivers using the chemical data extracted from the water using sensors, which will
+						give us the current water pollution scenario in rivers and other water bodies. The ROV is useful in conducting underwater surveys to map the
+						seafloor and to extract data regarding the chemical and biological characteristics of water bodies.</p>
+
+					<p>Antahsagari is capable of underwater motion in three directions. SLAM (Simultaneous Localisation and Mapping) is used for guiding marine
+						movement and real-time mapping of its surroundings.	Robot Operating System(ROS) forms the underlying framework for integrating various
+						subsystems at the software level. ROS receives raw data from each sensor, which is processed by different components of the project for
+						path planning and detection and identification of subjects underwater using SLAM and Image Processing.</p>
+
+					<p>Antahsagri 2.0 has majorly improved upon the previous versions in terms of weight optimization, reliability, endurance, speed, and high modularity.
+						We aim to make it more versatile and adaptive to make marine research and analysis effortless and prolific in the future.</p>
+
+				</div>
+				<button class="btn btn-outline-info mb-2" onclick="show(this)">Show More</button>
+
+			</div>
+
+		</div>
+
+<!-- /about section -->
+
+<!-- modules -->
+		<div id="modules" class=" cont fix-height text-center">
+			<h1 class="mb-5 nav-items">Modules</h1>
+			<div class="row justify-content-around">
+				<div class="col-md-5 mx-2 my-3 back">
+					<h2 class="my-3">Design</h2>
+					<div class="text-left p-2">
+						<p>Design is an integral part of the development of a project. From a rough idea to a fully built model it was a long process. The model of the Antahsagri 2.0 is made such
+							that it can withstand the harsh and extreme underwater conditions while still being in a budget. The main model is built of thick acrylic material to make sure that the
+							electronics can survive high underwater pressure without any issues while at the same time giving the body strength and rigidity. The bot is designed to be as streamlined
+							as possible, there are no big flat surfaces in the way of motion which may increase the resistance in motion.</p>
+						<div style="display: none">
+							<p>With respect to the overall dimensions, the actual mass of
+								the model is significantly less. To give the whole model structural rigidity, a frame has been made having two large sheets of acrylic on each side of the bot connected to each other by several steel rods. These side sheets provide stability and balance in handling while in motion. All electronics and circuitry are kept inside a long acrylic cylinder completely waterproof, attached to the frame. On the frame are the mounted powerful thrusters, a total 5 in number. 2 for forward and backward motion, 2 for adjusting the current depth and 1 for rotation of the bot on its axis. Thrusters are placed in a position so as to have maximum stability in
+								motion while balancing the weight of the full body.</p>
+
+							<p>Going forward onto Antahsagari 3.0, A lot of research can be carried over. While still in its initial phase of making, the design is yet in the process but we are
+								trying our best to get full advantage of the knowledge that we learned from Antahsagari 2.0. We have planned some major improvements to the bot design, starting with
+								making the design significantly larger than it is right now and thus pushing the hardware limitations and adding fully working robotic arms that will help in sample
+								collection. Though with the increased size and added arms comes the added challenge of making the model more streamlined and the ability to integrate the arms in the
+								main body which will help in maximizing the underwater exploration speed. Included with this we aim to improve the design greatly with time.</p>
+						</div>
+						<button class="btn btn-outline-info mb-2" onclick="show(this)">Show More</button>
+					</div>
+				</div>
+				<div class="col-md-5 mx-2 my-3 back">
+					<h2 class="my-3">SLAM</h2>
+					<div class="text-left p-2 ">
+						<p>According to NOAA reports, more than 80% of oceans are unexplored. Underwater localization is one of the essential requirements for autonomous marine navigation and
+							exploration. Unavailability of GPS, acoustic sensors limitation, lesser constraints than terrestrial navigation, and unstructured environment poses grueling challenges
+							in navigation. Underwater sensors are expensive, and this cost increases with increasing accuracy. At times, the cost of the navigation system exceeds that of the whole
+							vehicle, which limits it's affordability to few only.</p>
+						<div style="display: none">
+							<p>At antahsagri, we are trying to achieve economic underwater navigation without compromising it's accuracy much, to make underwater exploration a way more economical and
+								affordable. The broad idea is to integrate the inertial navigation system(INS) with surface GPS employing acoustic systems. The INS determines the ROV state correctly for
+								a short duration but soon gets out of bounds as time increases due to exponential growth in drift. This drift is corrected by GPS at the surface(which generally has a low
+								update frequency) by means of suitable sensor fusion algorithms. </p>
+
+							<p>Till now, we have written the program for IMU-based dead-reckoning and fusion algorithms. We have tested the algorithm on simulation data from QGround Control and S.I.T.L.
+								Currently, we are working on developing an acoustic-based mechanism like USBL to determine the location of ROV using surface GPS.</p>
+
+							<p>Future work includes the mapping of lake/river bottom using echo sounders fitted at the downside of the ROV. The idea is to blend the 2D coordinates(x,y) of the ROV with
+								absolute depth at that point. The absolute depth will be computed by adding up the ROV’s z-coordinate with echo sounder reading to a dive depth of bottom with respect to
+								the water surface. This will help to map the topography of the water body and analyze various parameters associated with it.</p>
+						</div>
+						<button class="btn btn-outline-info mb-2" onclick="show(this)">Show More</button>
+					</div>
+
+				</div>
+			</div>
+			<div class="row justify-content-around">
+				<div class="col-md-5 mx-2 my-3 back">
+					<h2 class="my-3">ROS(Robot Operating System)</h2>
+					<div class="text-left p-2">
+						<p>ROS is such a system that provides us with rules and standard ways to organize our stuff so that we can collaborate on a massive scale and have some uniformity
+							among things. Not actually an operating system, ROS is an open-source set of tools/libraries built to help make robot developers’ lives easier.</p>
+						<div style="display: none">
+							<p>To communicate, our ROV uses MAVlink which is a lightweight messaging protocol design for drones and moving robots. To deal with this message, the ROV runs Ardusub,
+								a branch of ardupilot project for underwater vehicles on a Pixhawk, a hardware electronic card to easily connect sensors and PWM motors with MAVlink. On the topside
+								computer, the software QGroundControl is made for handling MAVlink messages, configure Ardusub on the ROV.</p>
+
+							<p>We wrote a program using ROS which acts as the bridge between ROS and MAVlink. It handles incoming messages from MAVlink and publishes them on ROS topics. At the same
+								time, ROS messages published on topics are converted and sent with MAVlink to the ROV. Using the ROS package created, We are able to get the sensors’ data like IMU,
+								Battery State, the ROV States, published on the screen using commands. We are also able to arm the ROV, change the flight mode, control the vehicle, get the image view
+								through the camera etc. using  ROS commands. We have also built a Package through which we will be able to control the ROV using keyboard keys. We just need to launch
+								a file and we will be able to all these works typing commands in the terminal. There won’t be a need for joystick further as we can control the vehicle’s motions just
+								by a keyboard. </p>
+
+							<p>The real working of the Package still needs to be checked in the real environment. We have just checked its working on the simulation using Q Ground Control and S.I.T.L.
+								Currently, We are working on the Control and the simulation of the Robotic Arm which we will attach in our new model.</p>
+						</div>
+						<button class="btn btn-outline-info mb-2" onclick="show(this)">Show More</button>
+					</div>
+
+				</div>
+				<div class="col-md-5 mx-2 my-3 back">
+					<h2 class="my-3">Computer Vision</h2>
+					<div class="text-left p-2">
+						<p>To understand underwater image processing we have to consider all the basic physics of the light propagation in the water medium. Physical properties of the medium
+							cause degradation effects not present in normal images taken in air. Underwater images are essentially characterized by their poor visibility because the light is
+							exponentially attenuated as it travels in the water and the scenes result poorly contrasted and hazy. In the Image Processing module, we work on Image Restoration,
+							Image reconstruction, Lighting Problems, Image Enhancement, and Colour Correction on underwater images and using computer vision and building deep learning models for
+							efficient detection of underwater objects.</p>
+						<div style="display: none">
+							<p>In  Antahsagri 2.0  under computer vision, we are working on image enhancement, underwater object detection, classification and segmentation, and navigation of ROV.
+								In the image enhancement part, we have developed filters by taking reference from various image enhancement algorithms like linear contracts stretching, gamma
+								correction, histogram equalization, HSV stretching, etc., and have acquired good results. Our further goal includes developing filters using Convolution Neural
+								Networks (CNN) and advancing our previously developed filters.</p>
+
+							<p>In the underwater detection part, we have tried various algorithms, including Camshaft, Meanshift, KCF detector, Homography, and other color and contours based
+								algorithms. The mean shift and KCF detector showed better performance as compared to different algorithms. For more efficient detection and classification of objects,
+								we initially trained our custom dataset on Convolutional Neural Network using Keras and TensorFlow libraries in classification and object recognition. To note that
+								we haven't applied any filters on the input images. However, we achieved a 98% training accuracy rate, 90% testing rate. We also trained the ResNet50 model(50 layers
+								Residual Network) by fine-tuning on a custom dataset, which resulted in 98.7% training accuracy and 95.7% test accuracy.</p>
+
+							<p>We are currently working on Mask R-CNN and  Faster R-CNN for the detection and segmentation of underwater images. Training our custom dataset on Mask R-CNN resulted
+								in training accuracy of 99% and testing accuracy of 98%. Our future goal includes learning the architecture and techniques of different CNN's to create a custom Neural
+								Network for the project for efficient detection and segmentation purposes. We also aim to develop a custom neural network for the project, which will detect various
+								species of aquatic animals. The further goal includes identifying the garbage content of water bodies, which will help the concerned authorities to understand the
+								rate of water pollution and take informed action against it.</p>
+						</div>
+						<button class="btn btn-outline-info mb-2" onclick="show(this)">Show More</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+<!-- /modules -->
+
+<!-- posts -->
+		<div id="posts" class="cont fix-height text-center">
+			<h1 class="mb-5 nav-items">Posts</h1>
+			<div class="card hide1">
+			  <div class="card-header">
+			    Title1
+			  </div>
+			  <div class="card-body">
+			    <h5 class="card-title">Who is saying...1</h5>
+			    <p class="card-text text-left pl-2">We are using ArduSub which works seamlessly with Ground Control Station software that can monitor vehicle telemetry and perform powerful
+						mission planning activities.
+						It also benefits from other parts of the ArduPilot platform, including simulators, log analysis tools, and higher level APIs for vehicle management
+						and control.</p>
+			    <a href="#" class="btn btn-primary">Read more</a>
+			  </div>
+			</div>
+			<div class="card border1 hide1">
+			  <div class="card-header">
+			    Title2
+			  </div>
+			  <div class="card-body">
+			    <h5 class="card-title">Who is saying...2</h5>
+			    <p class="card-text text-left pl-2">The Robot Operating System (ROS) is a flexible framework for writing robot software.
+						ROS is a software suite which allows for quick and easy building of autonomous robotic systems..</p>
+			    <a href="#" class="btn btn-primary">Read more</a>
+			  </div>
+			</div>
+			<div class="card border1 hide1">
+			  <div class="card-header">
+			    Title3
+			  </div>
+			  <div class="card-body">
+			    <h5 class="card-title">Who is saying...3</h5>
+			    <p class="card-text text-left pl-2">he acronym stands for Simultaneous Localization and Mapping. Let’s understand it with an example.
+						Tushar is kidnapped and left in a dense forest by his enemies.</p>
+			    <a href="#" class="btn btn-primary">Read more</a>
+			  </div>
+			</div>
+			<div class="mt-3"style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+		</div>
+		<!-- <div class="card-footer text-muted">
+			2 days ago
+		</div> -->
+
+<!-- /posts -->
+
+<!-- team -->
+		<div id="team" class=" cont text-center fix-height">
+			<h1 class="mb-5 nav-items">Team</h1>
+			<div id="head" class="mt-5 mb-3">
+				<div class="card hover-shadow">
+					<img id="head-img" src="images/Ankit.jpg" class="card-img-top mx-auto" alt="picture of head">
+					<div class="card-body">
+						<h5 class="card-title">Ankit Kumar Saini</h5>
+						<p class="card-text">Project Head</p>
+						<div class="link d-flex justify-content-center">
+							<ul class="social-icon nav">
+								<li><a href="https://www.facebook.com/ak.saini.520/" class="fa fa-facebook mx-2" target="_blank"></a></li>
+								<li><a href="https://github.com/ankitgc1" class="fa fa-github mx-2" target="_blank"></a></li>
+								<li><a href="https://www.linkedin.com/in/ankit-kumar-saini-060527173/" class="fa fa-linkedin mx-2" target="_blank"></a></li>
+								<li><a href="https://www.instagram.com/i_m_chappie/" class="fa fa-instagram mx-2"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center">
+				<div class="col mb-3">
+					<div class="card hover-shadow">
+						<img src="images/ankita.jpg" class="card-img-top pics mx-auto" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Ankita</h5>
+							<p class="card-text">ROS</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="mb-3 col">
+					<div class="card hover-shadow">
+						<img src="images/Prashamsa.png" class="card-img-top pics mx-auto" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Prashamsa</h5>
+							<p class="card-text">Computer Vision</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="mb-3 col">
+					<div class="card hover-shadow">
+						<img src="images/suman.png" class="card-img-top pics mx-auto" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Suman</h5>
+							<p class="card-text">ROS</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
+			  <div class="col mb-4">
+			    <div class="card hover-shadow">
+						<img src="images/Abhay.jpg" class="card-img-top pics mx-auto" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">Abhay</h5>
+				      <p class="card-text">3D Designing</p>
+				    </div>
+			    </div>
+			  </div>
+			  <div class="col mb-4">
+			    <div class="card hover-shadow">
+						<img src="images/harsh.jpg" class="card-img-top pics mx-auto" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Harsh</h5>
+							<p class="card-text">SLAM</p>
+						</div>
+			    </div>
+			  </div>
+			  <div class="col mb-4">
+			    <div class="card hover-shadow">
+						<img src="images/himanshu.jpg" class="card-img-top pics mx-auto" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Himanshu</h5>
+							<p class="card-text">SLAM</p>
+						</div>
+			    </div>
+			  </div>
+			  <div class="col mb-4">
+			    <div class="card hover-shadow">
+						<img src="images/tushar.jpeg" class="card-img-top pics mx-auto" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Tushar</h5>
+							<p class="card-text">Cumpter Vision</p>
+						</div>
+			    </div>
+			  </div>
+			</div>
+
+		</div>
+<!-- /team -->
+
+<!-- footer -->
+
+		<div id="contact-us" class="sticky-bottom" id="social">
+			<h2 class="text-center">Contact us</h2>
+			<nav class="nav flex-column mt-3">
+				<a class="nav-link mx-auto" href="https://www.linkedin.com/in/ankit-kumar-saini-060527173/" target="_blank">Linkedln</a>
+				<a class="nav-link mx-auto" href="mailto:ankitgci1@gmail.com" target="_blank">Gmail</a>
+				<a class="nav-link mx-auto" href="https://github.com/ankitgc1" target="_blank">Github</a>
+				<a class="nav-link mx-auto" href="https://www.instagram.com/i_m_chappie/" target="_blank">Instagram</a>
+				<a class="nav-link mx-auto" href="https://www.facebook.com/ak.saini.520/" target="_blank">Facebook</a>
+			</nav>
+
+		</div>
+
+
+<!-- /footer -->
+
+    <script type="text/javascript" src="js/custom.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery3.4.1.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/popper.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" charset="utf-8"></script>
+
+	</body>
+</html>
