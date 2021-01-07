@@ -143,4 +143,12 @@ a:hover{
   .p-name{
     font-size: 4rem;
   }
+  #navbarNav ul{
+    align-items: center;
+  }
+}
+@media (min-width: 768px){
+  #navbarNav ul{
+    margin-left: auto;
+  }
 }
